@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		68BA9CA7259FE8AC009BECA8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA9CA6259FE8AC009BECA8 /* Tests_iOS.swift */; };
 		68BA9CB2259FE8AC009BECA8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA9CB1259FE8AC009BECA8 /* Tests_macOS.swift */; };
-		68BA9CB4259FE8AC009BECA8 /* SandwichesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA9C8B259FE8AC009BECA8 /* SandwichesApp.swift */; };
-		68BA9CB5259FE8AC009BECA8 /* SandwichesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA9C8B259FE8AC009BECA8 /* SandwichesApp.swift */; };
+		68BA9CB4259FE8AC009BECA8 /* StoreLocationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA9C8B259FE8AC009BECA8 /* StoreLocationsApp.swift */; };
+		68BA9CB5259FE8AC009BECA8 /* StoreLocationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA9C8B259FE8AC009BECA8 /* StoreLocationsApp.swift */; };
 		68BA9CB6259FE8AC009BECA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA9C8C259FE8AC009BECA8 /* ContentView.swift */; };
 		68BA9CB7259FE8AC009BECA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA9C8C259FE8AC009BECA8 /* ContentView.swift */; };
 		68BA9CB8259FE8AC009BECA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BA9C8D259FE8AC009BECA8 /* Assets.xcassets */; };
 		68BA9CB9259FE8AC009BECA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BA9C8D259FE8AC009BECA8 /* Assets.xcassets */; };
+		68BA9CD9259FF4C5009BECA8 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA9CD8259FF4C5009BECA8 /* Locations.swift */; };
+		68BA9CDA259FF4C5009BECA8 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA9CD8259FF4C5009BECA8 /* Locations.swift */; };
+		68BA9CEB259FFC05009BECA8 /* Locations.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BA9CEA259FFC05009BECA8 /* Locations.xcassets */; };
+		68BA9CEC259FFC05009BECA8 /* Locations.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68BA9CEA259FFC05009BECA8 /* Locations.xcassets */; };
+		68CA0CAB25A002230028DF7B /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA0CAA25A002230028DF7B /* LocationDetail.swift */; };
+		68CA0CAC25A002230028DF7B /* LocationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA0CAA25A002230028DF7B /* LocationDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		68BA9C8B259FE8AC009BECA8 /* SandwichesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichesApp.swift; sourceTree = "<group>"; };
+		68BA9C8B259FE8AC009BECA8 /* StoreLocationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLocationsApp.swift; sourceTree = "<group>"; };
 		68BA9C8C259FE8AC009BECA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68BA9C8D259FE8AC009BECA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		68BA9C92259FE8AC009BECA8 /* Sandwiches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandwiches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BA9C92259FE8AC009BECA8 /* StoreLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BA9C95259FE8AC009BECA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68BA9C9A259FE8AC009BECA8 /* Sandwiches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandwiches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BA9C9A259FE8AC009BECA8 /* StoreLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BA9C9C259FE8AC009BECA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68BA9C9D259FE8AC009BECA8 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		68BA9CA2259FE8AC009BECA8 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +55,10 @@
 		68BA9CAD259FE8AC009BECA8 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68BA9CB1259FE8AC009BECA8 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		68BA9CB3259FE8AC009BECA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68BA9CCC259FEACB009BECA8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		68BA9CD8259FF4C5009BECA8 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		68BA9CEA259FFC05009BECA8 /* Locations.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Locations.xcassets; path = ../../../../Downloads/Locations.xcassets; sourceTree = "<group>"; };
+		68CA0CAA25A002230028DF7B /* LocationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +108,13 @@
 		68BA9C8A259FE8AC009BECA8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				68BA9C8B259FE8AC009BECA8 /* SandwichesApp.swift */,
+				68BA9CCC259FEACB009BECA8 /* README.md */,
+				68BA9C8B259FE8AC009BECA8 /* StoreLocationsApp.swift */,
 				68BA9C8C259FE8AC009BECA8 /* ContentView.swift */,
+				68CA0CAA25A002230028DF7B /* LocationDetail.swift */,
 				68BA9C8D259FE8AC009BECA8 /* Assets.xcassets */,
+				68BA9CEA259FFC05009BECA8 /* Locations.xcassets */,
+				68BA9CD8259FF4C5009BECA8 /* Locations.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -108,8 +122,8 @@
 		68BA9C93259FE8AC009BECA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				68BA9C92259FE8AC009BECA8 /* Sandwiches.app */,
-				68BA9C9A259FE8AC009BECA8 /* Sandwiches.app */,
+				68BA9C92259FE8AC009BECA8 /* StoreLocations.app */,
+				68BA9C9A259FE8AC009BECA8 /* StoreLocations.app */,
 				68BA9CA2259FE8AC009BECA8 /* Tests iOS.xctest */,
 				68BA9CAD259FE8AC009BECA8 /* Tests macOS.xctest */,
 			);
@@ -154,9 +168,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		68BA9C91259FE8AC009BECA8 /* Sandwiches (iOS) */ = {
+		68BA9C91259FE8AC009BECA8 /* StoreLocations (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68BA9CBC259FE8AC009BECA8 /* Build configuration list for PBXNativeTarget "Sandwiches (iOS)" */;
+			buildConfigurationList = 68BA9CBC259FE8AC009BECA8 /* Build configuration list for PBXNativeTarget "StoreLocations (iOS)" */;
 			buildPhases = (
 				68BA9C8E259FE8AC009BECA8 /* Sources */,
 				68BA9C8F259FE8AC009BECA8 /* Frameworks */,
@@ -166,14 +180,14 @@
 			);
 			dependencies = (
 			);
-			name = "Sandwiches (iOS)";
+			name = "StoreLocations (iOS)";
 			productName = "Sandwiches (iOS)";
-			productReference = 68BA9C92259FE8AC009BECA8 /* Sandwiches.app */;
+			productReference = 68BA9C92259FE8AC009BECA8 /* StoreLocations.app */;
 			productType = "com.apple.product-type.application";
 		};
-		68BA9C99259FE8AC009BECA8 /* Sandwiches (macOS) */ = {
+		68BA9C99259FE8AC009BECA8 /* StoreLocations (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 68BA9CBF259FE8AC009BECA8 /* Build configuration list for PBXNativeTarget "Sandwiches (macOS)" */;
+			buildConfigurationList = 68BA9CBF259FE8AC009BECA8 /* Build configuration list for PBXNativeTarget "StoreLocations (macOS)" */;
 			buildPhases = (
 				68BA9C96259FE8AC009BECA8 /* Sources */,
 				68BA9C97259FE8AC009BECA8 /* Frameworks */,
@@ -183,9 +197,9 @@
 			);
 			dependencies = (
 			);
-			name = "Sandwiches (macOS)";
+			name = "StoreLocations (macOS)";
 			productName = "Sandwiches (macOS)";
-			productReference = 68BA9C9A259FE8AC009BECA8 /* Sandwiches.app */;
+			productReference = 68BA9C9A259FE8AC009BECA8 /* StoreLocations.app */;
 			productType = "com.apple.product-type.application";
 		};
 		68BA9CA1259FE8AC009BECA8 /* Tests iOS */ = {
@@ -249,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 68BA9C89259FE8AC009BECA8 /* Build configuration list for PBXProject "Sandwiches" */;
+			buildConfigurationList = 68BA9C89259FE8AC009BECA8 /* Build configuration list for PBXProject "StoreLocations" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -262,8 +276,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				68BA9C91259FE8AC009BECA8 /* Sandwiches (iOS) */,
-				68BA9C99259FE8AC009BECA8 /* Sandwiches (macOS) */,
+				68BA9C91259FE8AC009BECA8 /* StoreLocations (iOS) */,
+				68BA9C99259FE8AC009BECA8 /* StoreLocations (macOS) */,
 				68BA9CA1259FE8AC009BECA8 /* Tests iOS */,
 				68BA9CAC259FE8AC009BECA8 /* Tests macOS */,
 			);
@@ -275,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BA9CEB259FFC05009BECA8 /* Locations.xcassets in Resources */,
 				68BA9CB8259FE8AC009BECA8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BA9CEC259FFC05009BECA8 /* Locations.xcassets in Resources */,
 				68BA9CB9259FE8AC009BECA8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,8 +324,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BA9CD9259FF4C5009BECA8 /* Locations.swift in Sources */,
 				68BA9CB6259FE8AC009BECA8 /* ContentView.swift in Sources */,
-				68BA9CB4259FE8AC009BECA8 /* SandwichesApp.swift in Sources */,
+				68BA9CB4259FE8AC009BECA8 /* StoreLocationsApp.swift in Sources */,
+				68CA0CAB25A002230028DF7B /* LocationDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +335,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68BA9CDA259FF4C5009BECA8 /* Locations.swift in Sources */,
 				68BA9CB7259FE8AC009BECA8 /* ContentView.swift in Sources */,
-				68BA9CB5259FE8AC009BECA8 /* SandwichesApp.swift in Sources */,
+				68BA9CB5259FE8AC009BECA8 /* StoreLocationsApp.swift in Sources */,
+				68CA0CAC25A002230028DF7B /* LocationDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,12 +363,12 @@
 /* Begin PBXTargetDependency section */
 		68BA9CA4259FE8AC009BECA8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 68BA9C91259FE8AC009BECA8 /* Sandwiches (iOS) */;
+			target = 68BA9C91259FE8AC009BECA8 /* StoreLocations (iOS) */;
 			targetProxy = 68BA9CA3259FE8AC009BECA8 /* PBXContainerItemProxy */;
 		};
 		68BA9CAF259FE8AC009BECA8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 68BA9C99259FE8AC009BECA8 /* Sandwiches (macOS) */;
+			target = 68BA9C99259FE8AC009BECA8 /* StoreLocations (macOS) */;
 			targetProxy = 68BA9CAE259FE8AC009BECA8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -479,7 +499,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AndrewKSmith.Sandwiches;
-				PRODUCT_NAME = Sandwiches;
+				PRODUCT_NAME = StoreLocations;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,7 +520,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AndrewKSmith.Sandwiches;
-				PRODUCT_NAME = Sandwiches;
+				PRODUCT_NAME = StoreLocations;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -524,7 +544,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AndrewKSmith.Sandwiches;
-				PRODUCT_NAME = Sandwiches;
+				PRODUCT_NAME = StoreLocations;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -546,7 +566,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AndrewKSmith.Sandwiches;
-				PRODUCT_NAME = Sandwiches;
+				PRODUCT_NAME = StoreLocations;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -640,7 +660,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		68BA9C89259FE8AC009BECA8 /* Build configuration list for PBXProject "Sandwiches" */ = {
+		68BA9C89259FE8AC009BECA8 /* Build configuration list for PBXProject "StoreLocations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68BA9CBA259FE8AC009BECA8 /* Debug */,
@@ -649,7 +669,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68BA9CBC259FE8AC009BECA8 /* Build configuration list for PBXNativeTarget "Sandwiches (iOS)" */ = {
+		68BA9CBC259FE8AC009BECA8 /* Build configuration list for PBXNativeTarget "StoreLocations (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68BA9CBD259FE8AC009BECA8 /* Debug */,
@@ -658,7 +678,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		68BA9CBF259FE8AC009BECA8 /* Build configuration list for PBXNativeTarget "Sandwiches (macOS)" */ = {
+		68BA9CBF259FE8AC009BECA8 /* Build configuration list for PBXNativeTarget "StoreLocations (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				68BA9CC0259FE8AC009BECA8 /* Debug */,
