@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+
 @main
 struct StoreLocationsApp: App {
+    @StateObject private var store = LocationStore();
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(store: testStore)
         }
     }
 }

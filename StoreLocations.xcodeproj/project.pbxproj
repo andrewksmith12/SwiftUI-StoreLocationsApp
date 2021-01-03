@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6837315325A0ED4B0096B4C2 /* AddLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6837315225A0ED4B0096B4C2 /* AddLocation.swift */; };
+		6837315425A0ED4B0096B4C2 /* AddLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6837315225A0ED4B0096B4C2 /* AddLocation.swift */; };
+		6837315A25A0F72F0096B4C2 /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6837315925A0F72F0096B4C2 /* LocationStore.swift */; };
+		6837315B25A0F72F0096B4C2 /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6837315925A0F72F0096B4C2 /* LocationStore.swift */; };
+		6848A0C725A134B200634A52 /* RadarSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6848A0C625A134B200634A52 /* RadarSDK.framework */; };
+		6848A0C825A134B200634A52 /* RadarSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6848A0C625A134B200634A52 /* RadarSDK.framework */; };
 		68BA9CA7259FE8AC009BECA8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA9CA6259FE8AC009BECA8 /* Tests_iOS.swift */; };
 		68BA9CB2259FE8AC009BECA8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA9CB1259FE8AC009BECA8 /* Tests_macOS.swift */; };
 		68BA9CB4259FE8AC009BECA8 /* StoreLocationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68BA9C8B259FE8AC009BECA8 /* StoreLocationsApp.swift */; };
@@ -41,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6837315225A0ED4B0096B4C2 /* AddLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocation.swift; sourceTree = "<group>"; };
+		6837315925A0F72F0096B4C2 /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
+		6848A0C625A134B200634A52 /* RadarSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RadarSDK.framework; sourceTree = "<group>"; };
 		68BA9C8B259FE8AC009BECA8 /* StoreLocationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLocationsApp.swift; sourceTree = "<group>"; };
 		68BA9C8C259FE8AC009BECA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68BA9C8D259FE8AC009BECA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6848A0C725A134B200634A52 /* RadarSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6848A0C825A134B200634A52 /* RadarSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +104,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6837316625A121AD0096B4C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		68BA9C85259FE8AC009BECA8 = {
 			isa = PBXGroup;
 			children = (
@@ -102,19 +120,23 @@
 				68BA9CA5259FE8AC009BECA8 /* Tests iOS */,
 				68BA9CB0259FE8AC009BECA8 /* Tests macOS */,
 				68BA9C93259FE8AC009BECA8 /* Products */,
+				6837316625A121AD0096B4C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		68BA9C8A259FE8AC009BECA8 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				6848A0C625A134B200634A52 /* RadarSDK.framework */,
 				68BA9CCC259FEACB009BECA8 /* README.md */,
 				68BA9C8B259FE8AC009BECA8 /* StoreLocationsApp.swift */,
 				68BA9C8C259FE8AC009BECA8 /* ContentView.swift */,
+				6837315225A0ED4B0096B4C2 /* AddLocation.swift */,
 				68CA0CAA25A002230028DF7B /* LocationDetail.swift */,
 				68BA9C8D259FE8AC009BECA8 /* Assets.xcassets */,
 				68BA9CEA259FFC05009BECA8 /* Locations.xcassets */,
 				68BA9CD8259FF4C5009BECA8 /* Locations.swift */,
+				6837315925A0F72F0096B4C2 /* LocationStore.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -324,7 +346,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6837315325A0ED4B0096B4C2 /* AddLocation.swift in Sources */,
 				68BA9CD9259FF4C5009BECA8 /* Locations.swift in Sources */,
+				6837315A25A0F72F0096B4C2 /* LocationStore.swift in Sources */,
 				68BA9CB6259FE8AC009BECA8 /* ContentView.swift in Sources */,
 				68BA9CB4259FE8AC009BECA8 /* StoreLocationsApp.swift in Sources */,
 				68CA0CAB25A002230028DF7B /* LocationDetail.swift in Sources */,
@@ -335,7 +359,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6837315425A0ED4B0096B4C2 /* AddLocation.swift in Sources */,
 				68BA9CDA259FF4C5009BECA8 /* Locations.swift in Sources */,
+				6837315B25A0F72F0096B4C2 /* LocationStore.swift in Sources */,
 				68BA9CB7259FE8AC009BECA8 /* ContentView.swift in Sources */,
 				68BA9CB5259FE8AC009BECA8 /* StoreLocationsApp.swift in Sources */,
 				68CA0CAC25A002230028DF7B /* LocationDetail.swift in Sources */,
@@ -428,6 +454,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -480,6 +507,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -492,6 +520,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_PREVIEWS = YES;
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Shared",
+				);
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -513,12 +547,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Shared",
+				);
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AndrewKSmith.Sandwiches;
 				PRODUCT_NAME = StoreLocations;
 				SDKROOT = iphoneos;
@@ -537,6 +577,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Shared",
+				);
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -559,6 +604,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Shared",
+				);
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
